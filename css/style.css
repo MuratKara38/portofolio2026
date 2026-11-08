@@ -1,0 +1,382 @@
+/* ALGEMENE OPMAAK */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b1526;
+    color: white;
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+}
+
+h2 {
+    font-size: 32px;
+    color: lightgray;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 22px;
+    color: white;
+}
+
+p {
+    font-size: 17px;
+    color: lightgray;
+    line-height: 1.8;
+}
+
+section {
+    padding: 75px 10%;
+    scroll-margin-top: 80px;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+
+/* NAVIGATIEMENU */
+
+.header {
+    background-color: black;
+    padding: 20px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navigatie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.navigatie ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.navigatie li a {
+    color: lightgray;
+    font-size: 14px;
+}
+
+.navigatie li a:hover {
+    color: lightblue;
+}
+
+
+/* INTRODUCTIE */
+
+.introductie {
+    background-color: black;
+    text-align: center;
+    padding: 130px 10%;
+}
+
+.introductie h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.introductie h2 {
+    color: lightblue;
+    font-size: 27px;
+}
+
+.introductie p {
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+.introductie a {
+    display: inline-block;
+    background-color: lightblue;
+    color: black;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.introductie a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* OVER MIJ */
+
+.overmij {
+    background-color: #17263d;
+}
+
+.overmij article {
+    background-color: #21334d;
+    padding: 25px;
+    border: 1px solid #35465c;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.overmij h3 {
+    color: white;
+}
+
+
+/* VAARDIGHEDEN */
+
+.vaardigheden {
+    background-color: black;
+}
+
+.vaardigheden ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.vaardigheden li {
+    background-color: #17263d;
+    border: 1px solid #35465c;
+    border-radius: 10px;
+    padding: 25px;
+    flex: 1 1 220px;
+}
+
+.vaardigheden li:hover {
+    background-color: #29415e;
+    border-color: lightblue;
+}
+
+
+/* HOBBY'S */
+
+.hobbys {
+    background-color: #17263d;
+}
+
+.hobby-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hobby {
+    background-color: #21334d;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #35465c;
+    flex: 1 1 200px;
+}
+
+.hobby:hover {
+    background-color: #29415e;
+}
+
+.hobby h3 {
+    color: lightblue;
+}
+
+
+/* TALEN */
+
+.talen {
+    background-color: #0b1526;
+}
+
+.talen ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.talen li {
+    background-color: #17263d;
+    padding: 25px;
+    border: 1px solid #35465c;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1 1 160px;
+    font-weight: bold;
+}
+
+
+/* PROJECTEN */
+
+.projecten {
+    background-color: #17263d;
+}
+
+.projecten-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    background-color: #21334d;
+    padding: 25px;
+    border: 1px solid #35465c;
+    border-radius: 10px;
+    flex: 1 1 250px;
+}
+
+.project:hover {
+    background-color: #29415e;
+    border-color: lightblue;
+}
+
+.project h3 {
+    color: lightblue;
+}
+
+
+/* TOEKOMST */
+
+.toekomst {
+    background-color: #0b1526;
+}
+
+.toekomst h3 {
+    color: white;
+}
+
+.toekomst p {
+    max-width: 800px;
+}
+
+
+/* CONTACT */
+
+.contact {
+    background-color: #17263d;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 25px;
+    background-color: #21334d;
+    border: 1px solid #35465c;
+    border-radius: 10px;
+    max-width: 650px;
+}
+
+.contact li {
+    margin: 15px 0;
+    overflow-wrap: anywhere;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #05070b;
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid #35465c;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #d1d5db;
+}
+
+
+/* TABLET */
+
+@media screen and (max-width: 900px) {
+
+    section {
+        padding: 50px 6%;
+    }
+
+    .navigatie {
+        flex-direction: column;
+    }
+
+    .navigatie ul {
+        justify-content: center;
+    }
+
+    .introductie h1 {
+        font-size: 38px;
+    }
+}
+
+
+/* GSM */
+
+@media screen and (max-width: 600px) {
+
+    section {
+        padding: 40px 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .introductie {
+        padding: 80px 20px;
+    }
+
+    .introductie h1 {
+        font-size: 32px;
+    }
+
+    .introductie h2 {
+        font-size: 21px;
+    }
+
+    .navigatie ul {
+        gap: 12px;
+    }
+
+    .vaardigheden li,
+    .hobby,
+    .talen li,
+    .project {
+        flex: 1 1 100%;
+    }
+
+    .overmij article {
+        padding: 20px;
+    }
+}
