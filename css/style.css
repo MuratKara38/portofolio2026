@@ -1,4 +1,4 @@
-/* ALGEMENE OPMAAK */
+/* alles algmn  */
 
 * {
     box-sizing: border-box;
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 0; /* plaats tussen u element erboven en die element */
     font-family: Arial, sans-serif;
     background-color: #0b1526;
     color: white;
@@ -34,15 +34,15 @@ h3 {
 p {
     font-size: 17px;
     color: lightgray;
-    line-height: 1.8;
+    line-height: 1.8;   /* hoeveel moet er tussen de regels zitten */
 }
 
 section {
-    padding: 75px 10%;
-    scroll-margin-top: 80px;
+    padding: 75px 10%; /* plaats tussen u tekst en rand */
+    scroll-margin-top: 80px; /*  het aantal ruimte van boven dat als je automtisch scrolt naar ergens door bv op een link te klikken of naar een verwijzing enz , de afstand tussen die box en de box eronder*/
 }
 
-a {
+a { 
     color: lightgray;
     text-decoration: none;
 }
@@ -52,7 +52,7 @@ a:hover {
 }
 
 
-/* NAVIGATIEMENU */
+/* Nav */
 
 .header {
     background-color: black;
@@ -66,7 +66,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 20px; /* ruimte tussen je elementen */
 }
 
 .logo {
@@ -94,7 +94,7 @@ a:hover {
 }
 
 
-/* INTRODUCTIE */
+/* intro */
 
 .introductie {
     background-color: black;
@@ -152,7 +152,7 @@ a:hover {
 }
 
 
-/* VAARDIGHEDEN */
+/* vaardigheid */
 
 .vaardigheden {
     background-color: black;
@@ -180,7 +180,7 @@ a:hover {
 }
 
 
-/* HOBBY'S */
+/* hobby*/
 
 .hobbys {
     background-color: #17263d;
@@ -209,7 +209,7 @@ a:hover {
 }
 
 
-/* TALEN */
+/* talen */
 
 .talen {
     background-color: #0b1526;
@@ -234,7 +234,7 @@ a:hover {
 }
 
 
-/* PROJECTEN */
+/* projecten */
 
 .projecten {
     background-color: #17263d;
@@ -264,7 +264,7 @@ a:hover {
 }
 
 
-/* TOEKOMST */
+/* toekomst */
 
 .toekomst {
     background-color: #0b1526;
@@ -279,7 +279,7 @@ a:hover {
 }
 
 
-/* CONTACT */
+/* contact */
 
 .contact {
     background-color: #17263d;
@@ -300,7 +300,7 @@ a:hover {
 }
 
 
-/* FOOTER */
+/* onderste deel site */
 
 .footer {
     background-color: #05070b;
@@ -311,11 +311,11 @@ a:hover {
 
 .footer p {
     font-size: 14px;
-    color: #d1d5db;
+    color: white;
 }
 
 
-/* TABLET */
+/* op een tablet */
 
 @media screen and (max-width: 900px) {
 
@@ -337,7 +337,7 @@ a:hover {
 }
 
 
-/* GSM */
+/* op een gsm */
 
 @media screen and (max-width: 600px) {
 
